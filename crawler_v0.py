@@ -1,6 +1,7 @@
 # !/usr/bin/python
 import re #regular expression
 import urllib #open any resources by URL
+import MySQLdb #Connect to MySQL
 # apiKey FDA7423D18A5DECCA2C8BD169361941A
 # steamID 76561198062810172
 # ID 102544444
@@ -12,6 +13,6 @@ def getHTML(url):
 	page=urllib.urlopen(url)
 	html=page.read()
 	return html
-	
+
 print getHTML(turl)
 
