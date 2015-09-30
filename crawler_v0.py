@@ -16,3 +16,8 @@ def getHTML(url):
 
 print getHTML(turl)
 
+#match details
+https://api.steampowered.com/IDOTA2Match_570/GetMatchDetails/V001/?key=FDA7423D18A5DECCA2C8BD169361941A&match_id=1795548666
+#heroes
+https://api.steampowered.com/IEconDOTA2_570/GetHeroes/v0001/?key=FDA7423D18A5DECCA2C8BD169361941A&language=en_us
+
